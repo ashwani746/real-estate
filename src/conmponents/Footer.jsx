@@ -13,10 +13,32 @@ const Footer = () => {
             <img src={assets.logo_dark} alt="Company Logo" className="logo" />
           </a>
           <p className="text-gray-400 mb-4 max-w-80">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-            quisquam sequi culpa ut perspiciatis dolorem eius ducimus! Nisi
-            deserunt iure, facere exercitationem a in, atque cupiditate illum
-            dolor dolore ipsa!
+            <span className="block mb-2">
+              📍 Address: Near MSME, Chandpur Industrial Estate Rd, Varanasi, U.P. - 221106
+            </span>
+            <span className="block">
+              📞 Contact:{" "}
+              <a 
+                href="tel:+919450406904" 
+                className="hover:text-blue-500 hover:underline transition-colors"
+              >
+                +91 94504 06904
+              </a>
+              ,{" "}
+              <a 
+                href="tel:+917607016900" 
+                className="hover:text-blue-500 hover:underline transition-colors"
+              >
+                76070 16900
+              </a>{" "}
+              ,{" "}
+              <a 
+                href="tel:+917007594150" 
+                className="hover:text-blue-500 hover:underline transition-colors"
+              >
+                70075 94150
+              </a>
+            </span>
           </p>
         </div>
         <div className="w-full md:w-1/3">
@@ -44,8 +66,7 @@ const Footer = () => {
             Subscribe newsletter
           </h3>
           <p className="text-gray-400 mb-4 max-w-80">
-            Gyan Enterprises delivers trusted real estate solutions, offering
-            quality properties.
+            Gyan Enterprises delivers premium engineering and fabrication services, specializing in custom iron gates, steel railings, and modern security doors.
           </p>
           <div className="flex gap-2 mb-4 max-w-80">
             <input

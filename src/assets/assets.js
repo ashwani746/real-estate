@@ -1,5 +1,5 @@
-import logo from './logo.svg'
-import logo_dark from './logo_dark.svg'
+import logo from './gyanen.png'
+import logo_dark from './gyanen.png'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
 import star_icon from './star_icon.svg'
