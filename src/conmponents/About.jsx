@@ -46,7 +46,7 @@ const About = () => {
             </div>
           </div>
              
-          <p className="my-10 max-w-lg">
+          <p className="my-200 max-w-lg">
           Gyan Enterprises is a leading engineering and welding workshop in Varanasi, 
           dedicated to transforming raw metal into durable, precise, and 
           aesthetically pleasing structures. With a foundation built on 
