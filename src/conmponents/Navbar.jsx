@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { assets } from "../assets/assets.js";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
 
@@ -34,7 +35,8 @@ const Navbar = () => {
           <button className="hidden md:block bg-white px-8 py-2 rounded-full">
             Sign Up
           </button>
-      
+    
+
         <img onClick={ ()=> setShowMobileMenu(true)} src={assets.menu_icon} className="md:hidden w-7 cursor-pointer" alt="" />
       </div>
       {/* -----------------mobile-menu-----------------*/}
