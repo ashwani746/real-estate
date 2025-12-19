@@ -15,7 +15,7 @@ const Header = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white">
-        <h2 class="text-3xl sm:text-4xl md:text-5xl inline-block max-w-3xl font-semibold pt-10">Engineering Strength into Every Structure. Uncompromising Quality, Lasting Impact.</h2>
+        <h3 class="text-3xl sm:text-4xl md:text-5xl inline-block max-w-3xl font-semibold pt-10">Engineering Strength into Every Structure. Uncompromising Quality, Lasting Impact.</h3>
         <p>Trusted Fabrication Experts for iron gates, railings, shutters, aluminum windows, partitions, glass doors, and steel railing work. Serving Varanasi, & all over Varanasi at affordable prices</p>
         <div className="space-x-6 mt-16">
           <a href="#Projects" className="border border-white px-8 py-3 rounded"> Projects</a>

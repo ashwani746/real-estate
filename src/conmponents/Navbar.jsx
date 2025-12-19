@@ -14,7 +14,8 @@ const Navbar = () => {
     }
   },[setShowMobileMenu])
   return (
-    <div className="absolute top-0 left-0 w-full z-20">
+<div className="absolute top-0 left-0 w-full z-20 bg-white/30 backdrop-blur-md">
+
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32">
       <img src={assets.logo}  width="200" height="100" alt="" />
         <ul className="hidden md:flex gap-7 text-white">
@@ -32,9 +33,13 @@ const Navbar = () => {
           </a>
         </ul>
       
-          <button className="hidden md:block bg-white px-8 py-2 rounded-full">
-            Sign Up
-          </button>
+          <a
+  href="tel:+917007594150"
+  className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full"
+>
+  📞 +91 7007594150
+</a>
+
     
 
         <img onClick={ ()=> setShowMobileMenu(true)} src={assets.menu_icon} className="md:hidden w-7 cursor-pointer" alt="" />
