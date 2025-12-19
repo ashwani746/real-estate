@@ -1,5 +1,7 @@
 import { img } from "framer-motion/client";
 import React, { useState } from "react";
+import {motion} from 'framer-motion'
+
 
 const services = [
   {
@@ -38,7 +40,14 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   return (
-    <section className="py-20 bg-white">
+     <motion.div
+    initial={{ opacity: 0, x:-200 }}
+    transition={{ duration: 2}}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+      className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
+      id="Testimonials"
+    >
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-14">
           Our Key Services
@@ -117,7 +126,7 @@ const Services = () => {
           </div>
         </div>
       )}
-    </section>
+    </motion.div>
   );
 };
 
