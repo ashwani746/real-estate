@@ -3,8 +3,7 @@ import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 const Header = () => {
   const headingText =
-    "Engineering Strength into Every Structure. Uncompromising Quality, Lasting Impact.";
-
+    "Gyan Enterprises Engineering solutions that build strength, safety, and trust.";
   return (
     <div
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden"
@@ -21,7 +20,7 @@ const Header = () => {
         className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white"
       >
         {/* Animated Heading */}
-        <h3 className="text-3xl sm:text-4xl md:text-5xl inline-block max-w-3xl font-semibold pt-10">
+        <h3 className="text-base sm:text-lg md:text-xl inline-block max-w-3xl font-semibold pt-10">
           {headingText.split("").map((char, index) => (
             <motion.span
               key={index}

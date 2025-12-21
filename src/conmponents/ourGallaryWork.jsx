@@ -27,18 +27,9 @@ const images = [
   "https://images.unsplash.com/photo-1615874694520-474822394e73", // CNC wall design
   
   // RAILINGS CATEGORY
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0d", // Stair railing
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118d", // Balcony railing
   "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea", // Laser cut railing
-  "https://images.unsplash.com/photo-1600573472549-e8c6e0b8f8b8", // Designer railing
-  "https://images.unsplash.com/photo-1600210492486-724fe5c67fb1", // MS/SS railing
   
   // NAME PLATES CATEGORY
-  "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4", // Metal name plate
-  "https://images.unsplash.com/photo-1600566752355-35792bedcfeb", // Laser cut name plate
-  "https://images.unsplash.com/photo-1615873968403-89e068629266", // Designer name plate
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0e", // Custom name plate
-  "https://images.unsplash.com/photo-1600210492493-0946911123eb", // House name plate
   
   // TUBE WELL FITTINGS CATEGORY
   "https://images.unsplash.com/photo-1581092160562-40aa08e78837", // Metal fittings
@@ -48,36 +39,23 @@ const images = [
   "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", // Tube well parts
   
   // WALL ARTS & DECOR CATEGORY
-  "https://images.unsplash.com/photo-1513519245088-0e12902e35ca", // Metal wall art
   "https://images.unsplash.com/photo-1582037928769-181f2644ecb7", // Decorative wall art
   "https://images.unsplash.com/photo-1551028719-00167b16eac5", // Laser cut wall decor
   "https://images.unsplash.com/photo-1578926288207-a90a5366759d", // Geometric wall art
   "https://images.unsplash.com/photo-1561214115-f2f134cc4912", // Modern wall design
-  "https://images.unsplash.com/photo-1544382937-e0d40dabdc18", // Architectural wall art
-  "https://images.unsplash.com/photo-1515405295579-ba7b45403062", // Natural design wall art
   
   // RELIGIOUS ITEMS CATEGORY
   "https://images.unsplash.com/photo-1583623025817-d180a2221d0a", // Trishul design
   "https://images.unsplash.com/photo-1580674285054-bed31e145f59", // Lord Ganesha
-  "https://images.unsplash.com/photo-1597679488944-c9c933fbf3d5", // Lord Shiva symbol
-  "https://images.unsplash.com/photo-1603048588665-791ca8aea617", // Religious items
-  "https://images.unsplash.com/photo-1609331834377-78eab50c4c34", // Diya decoration
   "https://images.unsplash.com/photo-1545486332-9e0999c535b2", // Om symbol
   
   // STATUES & SPIRITUAL DECOR
-  "https://images.unsplash.com/photo-1587411768941-df30e7c4e323", // Lord Natraj statue
-  "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5", // Ganesha statue
-  "https://images.unsplash.com/photo-1611688720072-c1ae394f59e4", // Religious statue
-  "https://images.unsplash.com/photo-1609331834377-78eab50c4c35", // Spiritual decor
-  "https://images.unsplash.com/photo-1580674285054-bed31e145f60", // Hindu deity
-  "https://images.unsplash.com/photo-1583623025817-d180a2221d0b", // Temple decor
   
   // WELDING & FABRICATION PROCESS
   "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789", // Welding sparks
   "https://images.unsplash.com/photo-1581092160562-40aa08e78837", // Welder at work
   "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952", // Metal fabrication
   "https://images.unsplash.com/photo-1565688534245-05d6b5be184a", // CNC machine
-  "https://images.unsplash.com/photo-1581092800453-046b51f8f05c", // Laser cutting
   "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc", // Metal grinding
   
   // WORKSHOP & TOOLS
